@@ -5,7 +5,7 @@ app.singleFlower = Backbone.Model.extend({
 
   defaults: {
     color: "pink",
-    img: "images/placeholder.png"
+    img: "images/placeholder.jpg"
   },
 
 });
