@@ -20,6 +20,6 @@ var heirloomRoses = new app.singleFlower({
   link: "heirloomRose"
 });
 
-// Change the price
-
-rainbowRoses.set('price', 20);
+var flowerGroup = new app.FlowersCollection([
+  redRoses, rainbowRoses, heirloomRoses
+]);
